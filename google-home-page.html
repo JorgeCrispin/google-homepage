@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>google-home-page</title>
+<style>
+img{
+    position:relative;
+    top:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .right-side-menu li{
+    float: right;
+    display: inline;
+    padding: 8px;
+    background-color: #fff;
+    font-family: arial,sans-serif;
+  }
+  .left-side-menu li{
+    float:left;
+    display:inline;
+    padding:8px;
+    
+  }
+  .left-side-menu{
+    margin-left:-11px;
+    font-family: arial,sans-serif;
+  }
+  #sign-in{
+    background-color:#4387fd;
+    color:white;
+    font-family: arial,sans-serif;
+    border-radius:4px;
+  }
+  /*.appsBox{
+    background-color: lightgrey;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    margin-right:8px;
+    color:white;
+  }*/
+  .grid-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 1px;
+  }
+  .grid-item{
+    background-color: grey;
+    border: 2px solid white;
+    padding: 1px;
+    height:2.5px;
+    width:2.5px;
+    /*text-align: center;*/
+    border-color:white;
+  }
+  #searchthing{
+    position:relative;
+    top:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 30%;
+    bottom:0;
+    border-radius:5px;
+    border-color:grey;
+  }
+  #footer{
+    display:block;
+    background:#f2f2f2;
+    bottom:1%;
+    height:35px;
+    position:fixed;
+    width:100%;
+  }
+  button{
+    border-radius:4px;
+    color:#5f6368;
+    font-family:arial,sans-serif;
+    font-size:14px;
+    margin:11px 4px;
+    padding:0 16px;
+    line-height:27px;
+    height:36px;
+    min-width:54px;
+    text-align:center;
+     
+  }
+  #the-buttons{
+    text-align:center;
+    position:relative;
+    top:100px;
+  }
+</style>
+</head>
+
+<body>
+<!--This is my attempt at making a google web page as a project-->
+<navbar id="nav-bar">
+  <!-- in this navbar the right side is the gmail images apps and sign in so I will make one list for that-->
+  <ul class="right-side-menu">
+    <li id="sign-in">Sign in</li>
+    <li id="apps">
+      <div class="appsBox">
+        <div class="grid-box">
+   <!--This little box is not easy-->
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>  
+        </div>
+      </div>
+      
+    </li>
+    
+    
+    <li>Images</li>
+    <li>Gmail</li>
+            
+  </ul>
+  <!-- so the left side menu contains about and store -->
+  <ul class="left-side-menu">
+    <li>About</li>
+    <li>Store</li>
+  </ul>
+</navbar>
+<div id="main-display">
+  <!-- this is the google logo display-->
+<img src="
+
+https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></img>
+<input id = "searchthing" placeholder = "Search Google or type a URL">
+
+<!-- Those two buttons under the search bar-->
+
+</input>
+<div id="the-buttons">
+  <button onclick="">Google Search</button>
+  <button onclick="">I'm Feeling Lucky</button>
+</div>
+
+
+</div>
+
+<footer id="footer">
+  <div class="fbar">
+    <ul class="left-side-menu">
+      <li>Advertising</li>
+      <li>Business</li>
+      <li>How Search Works</li>
+    </ul>
+    <ul class="right-side-menu">
+      <li>Settings</li>
+      <li>Terms</li>
+      <li>Privacy</li>
+    </fbar>
+</footer>
+
+</body>
+
+</html>
